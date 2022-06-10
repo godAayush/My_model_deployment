@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Model deployment</title></head>
+    <body>
+        <h1>PRedict house price</h1>
+        <p>Enter income</p>
+        <form action="/" method="POST">
+            <input type="number" name="hrs" placeholder="No of hours studied">
+            <input type="submit">
+        </form>
+
+        {% if my_marks %}
+            <p>prediction:</p>{{my_marks}}
+        {% endif %}
+
+    </body>
+</html>
